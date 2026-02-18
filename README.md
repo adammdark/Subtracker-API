@@ -217,6 +217,12 @@ Workflow sleeps until (renewalDate - 7 days)
 Email reminder sent: "Your subscription renews in 7 days!"
         │
         ▼
+Workflow sleeps until (renewalDate - 5 days)
+        │
+        ▼
+Email reminder sent: "Your subscription renews in 5 days!"
+        │
+        ▼
 Workflow sleeps until (renewalDate - 3 days)
         │
         ▼
