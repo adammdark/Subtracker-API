@@ -11,8 +11,7 @@ export const setReminders = serve(async(context)=>{
 
     const {subscriptionId} = context.requestPayload;
 
-    const subscription = await fetchSubscription(context,subscriptionId);
-    console.log(subscription); 
+    const subscription = await fetchSubscription(context,subscriptionId); 
 
     if(!subscription || subscription.status !== 'active') return 
 
